@@ -40,7 +40,7 @@
 ## 一键安装
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Atticlmr/atop-monitor/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Atticlmr/atop-monitor/master/install.sh | bash
 ```
 
 或者下载预编译的 release：

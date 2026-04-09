@@ -40,7 +40,7 @@ A beautiful terminal-based system monitor built with [FTXUI](https://github.com/
 ## Quick Install
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/Atticlmr/atop-monitor/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Atticlmr/atop-monitor/master/install.sh | bash
 ```
 
 Or download pre-built releases:

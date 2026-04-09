@@ -1,6 +1,6 @@
 #!/bin/bash
 # One-line install script for atop-monitor
-# Usage: curl -sSL https://raw.githubusercontent.com/Atticlmr/atop-monitor/main/install.sh | bash
+# Usage: curl -sSL https://raw.githubusercontent.com/Atticlmr/atop-monitor/master/install.sh | bash
 
 set -e
 
