@@ -4,8 +4,11 @@ project(atop-monitor VERSION 1.0.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# 使用本地FTXUI
-set(FTXUI_DIR /home/li/Desktop/playspace/FTXUI)
+# FTXUI路径（可通过环境变量FTXUI_DIR覆盖）
+set(FTXUI_DIR "$ENV{FTXUI_DIR}" CACHE PATH "Path to FTXUI source directory")
+if(NOT FTXUI_DIR)
+    set(FTXUI_DIR "/tmp/FTXUI")
+endif()
 
 # 源文件
 set(SOURCES

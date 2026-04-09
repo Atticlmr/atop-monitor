@@ -42,6 +42,8 @@ jobs:
           make -j$(nproc)
 
       - name: Configure CMake
+        env:
+          FTXUI_DIR: /tmp/FTXUI
         run: |
           rm -rf build
           mkdir -p build
