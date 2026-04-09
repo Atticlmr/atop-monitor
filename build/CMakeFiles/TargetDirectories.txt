@@ -1,0 +1,9 @@
+/home/li/Desktop/playspace/atop/build/CMakeFiles/atop-monitor.dir
+/home/li/Desktop/playspace/atop/build/CMakeFiles/package.dir
+/home/li/Desktop/playspace/atop/build/CMakeFiles/package_source.dir
+/home/li/Desktop/playspace/atop/build/CMakeFiles/edit_cache.dir
+/home/li/Desktop/playspace/atop/build/CMakeFiles/rebuild_cache.dir
+/home/li/Desktop/playspace/atop/build/CMakeFiles/list_install_components.dir
+/home/li/Desktop/playspace/atop/build/CMakeFiles/install.dir
+/home/li/Desktop/playspace/atop/build/CMakeFiles/install/local.dir
+/home/li/Desktop/playspace/atop/build/CMakeFiles/install/strip.dir

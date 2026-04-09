@@ -1,0 +1,3 @@
+/home/li/Desktop/playspace/atop/build/_deps/ftxui-subbuild/CMakeFiles/ftxui-populate.dir
+/home/li/Desktop/playspace/atop/build/_deps/ftxui-subbuild/CMakeFiles/edit_cache.dir
+/home/li/Desktop/playspace/atop/build/_deps/ftxui-subbuild/CMakeFiles/rebuild_cache.dir
