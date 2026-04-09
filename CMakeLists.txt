@@ -4,10 +4,13 @@ project(atop-monitor VERSION 1.0.0 LANGUAGES CXX)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# FTXUI路径（可通过环境变量FTXUI_DIR覆盖）
-set(FTXUI_DIR "$ENV{FTXUI_DIR}" CACHE PATH "Path to FTXUI source directory")
-if(NOT FTXUI_DIR)
-    set(FTXUI_DIR "/tmp/FTXUI")
+# FTXUI路径（优先使用本地，可通过环境变量FTXUI_DIR覆盖）
+if(DEFINED ENV{FTXUI_DIR})
+    set(FTXUI_DIR "$ENV{FTXUI_DIR}" CACHE PATH "Path to FTXUI source directory")
+elseif(EXISTS "${CMAKE_CURRENT_SOURCE_DIR}/../FTXUI/build/libftxui-component.a")
+    set(FTXUI_DIR "${CMAKE_CURRENT_SOURCE_DIR}/../FTXUI" CACHE PATH "Path to FTXUI source directory")
+else()
+    set(FTXUI_DIR "/tmp/FTXUI" CACHE PATH "Path to FTXUI source directory")
 endif()
 
 # 源文件

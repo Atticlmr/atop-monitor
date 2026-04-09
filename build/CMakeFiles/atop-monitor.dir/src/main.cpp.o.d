@@ -103,8 +103,8 @@ CMakeFiles/atop-monitor.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/component/screen_interactive.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/component/app.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/component/screen_interactive.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/component/app.hpp \
  /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/allocator.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
@@ -168,13 +168,13 @@ CMakeFiles/atop-monitor.dir/src/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/component/animation.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/component/captured_mouse.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/component/event.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/component/mouse.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/component/task.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/component/animation.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/component/captured_mouse.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/component/event.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/component/mouse.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/component/task.hpp \
  /usr/include/c++/11/variant \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/dom/selection.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/dom/selection.hpp \
  /usr/include/c++/11/sstream /usr/include/c++/11/istream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
  /usr/include/c++/11/bits/locale_classes.h \
@@ -194,33 +194,33 @@ CMakeFiles/atop-monitor.dir/src/main.cpp.o: \
  /usr/include/c++/11/bits/ostream.tcc \
  /usr/include/c++/11/bits/istream.tcc \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/screen/box.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/screen/cell.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/screen/color.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/screen/screen.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/screen/surface.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/screen/terminal.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/component/component.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/util/warn_windows_macro.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/component/component_base.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/dom/elements.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/dom/canvas.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/screen/box.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/screen/cell.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/screen/color.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/screen/screen.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/screen/surface.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/screen/terminal.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/component/component.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/util/warn_windows_macro.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/component/component_base.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/dom/elements.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/dom/canvas.hpp \
  /usr/include/c++/11/cstddef \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/dom/direction.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/dom/flexbox_config.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/dom/linear_gradient.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/dom/direction.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/dom/flexbox_config.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/dom/linear_gradient.hpp \
  /usr/include/c++/11/optional \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/dom/node.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/dom/requirement.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/util/ref.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/screen/string.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/dom/take_any_args.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/dom/node.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/dom/requirement.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/util/ref.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/screen/string.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/dom/take_any_args.hpp \
  /usr/include/c++/11/deque /usr/include/c++/11/bits/stl_deque.h \
  /usr/include/c++/11/bits/deque.tcc /usr/include/c++/11/queue \
  /usr/include/c++/11/bits/stl_queue.h /usr/include/c++/11/stack \
  /usr/include/c++/11/bits/stl_stack.h \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/dom/deprecated.hpp \
- /home/li/Desktop/playspace/FTXUI/include/ftxui/component/component_options.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/dom/deprecated.hpp \
+ /home/li/Desktop/playspace/atop/../FTXUI/include/ftxui/component/component_options.hpp \
  /home/li/Desktop/playspace/atop/src/cpu_monitor.h \
  /home/li/Desktop/playspace/atop/src/memory_monitor.h \
  /home/li/Desktop/playspace/atop/src/gpu_monitor.h \

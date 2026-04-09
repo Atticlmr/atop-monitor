@@ -276,6 +276,9 @@ CPACK_SOURCE_TZ:BOOL=ON
 //Enable to build ZIP source packages
 CPACK_SOURCE_ZIP:BOOL=OFF
 
+//Path to FTXUI source directory
+FTXUI_DIR:PATH=/home/li/Desktop/playspace/atop/../FTXUI
+
 //Path to a library.
 NVML_LIBRARY:FILEPATH=NVML_LIBRARY-NOTFOUND
 

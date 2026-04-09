@@ -159,9 +159,9 @@ atop-monitor: CMakeFiles/atop-monitor.dir/src/memory_monitor.cpp.o
 atop-monitor: CMakeFiles/atop-monitor.dir/src/gpu_monitor.cpp.o
 atop-monitor: CMakeFiles/atop-monitor.dir/src/ui/dashboard.cpp.o
 atop-monitor: CMakeFiles/atop-monitor.dir/build.make
-atop-monitor: /home/li/Desktop/playspace/FTXUI/build/libftxui-component.a
-atop-monitor: /home/li/Desktop/playspace/FTXUI/build/libftxui-dom.a
-atop-monitor: /home/li/Desktop/playspace/FTXUI/build/libftxui-screen.a
+atop-monitor: /home/li/Desktop/playspace/atop/../FTXUI/build/libftxui-component.a
+atop-monitor: /home/li/Desktop/playspace/atop/../FTXUI/build/libftxui-dom.a
+atop-monitor: /home/li/Desktop/playspace/atop/../FTXUI/build/libftxui-screen.a
 atop-monitor: CMakeFiles/atop-monitor.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/li/Desktop/playspace/atop/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable atop-monitor"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/atop-monitor.dir/link.txt --verbose=$(VERBOSE)

@@ -22,5 +22,5 @@ private:
                                const std::string& suffix = "");
     ftxui::Element renderCPU();
     ftxui::Element renderMemory();
-    ftxui::Element renderGPU();
+    ftxui::Element renderGPU(int device_id);
 };

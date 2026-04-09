@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/li/Desktop/playspace/atop/src -I/home/li/Desktop/playspace/FTXUI/include
+CXX_INCLUDES = -I/home/li/Desktop/playspace/atop/src -I/home/li/Desktop/playspace/atop/../FTXUI/include
 
 CXX_FLAGS = -std=gnu++17
 
