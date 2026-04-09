@@ -6,7 +6,7 @@ set -e
 
 REPO="${REPO:-Atticlmr/atop-monitor}"
 INSTALL_PREFIX="${INSTALL_PREFIX:-/usr/local}"
-VERSION="${VERSION:-v0.1.0}"
+VERSION="${VERSION:-v0.1.1}"
 TMPDIR=$(mktemp -d)
 ARCH=$(uname -m)
 OS=$(uname -s)
