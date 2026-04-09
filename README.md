@@ -35,28 +35,25 @@ A beautiful terminal-based system monitor built with [FTXUI](https://github.com/
 
 ## Screenshot
 
+![screenshot](./screenshot.png)
+
+## Quick Install
+
+```bash
+curl -sSL https://raw.githubusercontent.com/Atticlmr/atop-monitor/main/install.sh | bash
 ```
-┌─────────────────────────────────────────────┐
-│         System Monitor                      │
-├─────────────────────────────────────────────┤
-│ CPU: Intel Core i7-9700K                    │
-│ ├─ Usage: [██████░░░░] 32.5%               │
-│ ├─ History: 〰️〰️📈                         │
-│ └─ Cores: 8  Freq: 4200 MHz                │
-├─────────────────────────────────────────────┤
-│ Memory: 16.0 GB Total                       │
-│ ├─ RAM: [███████░░░░░] 45.2%               │
-│ ├─ History: 〰️📉〰️📈                       │
-│ └─ Swap: [██░░░░░░░░░] 12.0%               │
-├─────────────────────────────────────────────┤
-│ GPU 0: NVIDIA GeForce RTX 2080 Ti          │
-│ ├─ Usage: [████████░░] 65.0%               │
-│ ├─ VRAM: [██████░░░░░] 35.0%               │
-│ ├─ History: 📈〰️〰️📉                       │
-│ └─ Temp: 62°C                              │
-├─────────────────────────────────────────────┤
-│ Refresh: 1.0s  |  Press 'q' to quit        │
-└─────────────────────────────────────────────┘
+
+Or download pre-built releases:
+
+| Architecture | Download |
+|--------------|----------|
+| x86_64 (amd64) | [atop-monitor-linux-amd64](https://github.com/Atticlmr/atop-monitor/releases/latest) |
+| aarch64 (arm64) | [atop-monitor-linux-arm64](https://github.com/Atticlmr/atop-monitor/releases/latest) |
+
+After download:
+```bash
+chmod +x atop-monitor-linux-amd64
+sudo mv atop-monitor-linux-amd64 /usr/local/bin/atop-monitor
 ```
 
 ## Requirements
@@ -72,7 +69,7 @@ A beautiful terminal-based system monitor built with [FTXUI](https://github.com/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/atop-monitor.git
+git clone https://github.com/Atticlmr/atop-monitor.git
 cd atop-monitor
 ```
 

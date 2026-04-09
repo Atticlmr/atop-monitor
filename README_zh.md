@@ -35,42 +35,20 @@
 
 ## 截图
 
-```
-┌─────────────────────────────────────────────┐
-│         System Monitor                      │
-├─────────────────────────────────────────────┤
-│ CPU: Intel Core i7-9700K                    │
-│ ├─ Usage: [██████░░░░] 32.5%             │
-│ ├─ History: 〰️〰️📈                         │
-│ └─ Cores: 8  Freq: 4200 MHz              │
-├─────────────────────────────────────────────┤
-│ Memory: 16.0 GB Total                     │
-│ ├─ RAM: [███████░░░░░] 45.2%              │
-│ ├─ History: 〰️📉〰️📈                      │
-│ └─ Swap: [██░░░░░░░░░] 12.0%              │
-├─────────────────────────────────────────────┤
-│ GPU 0: NVIDIA GeForce RTX 2080 Ti         │
-│ ├─ Usage: [████████░░] 65.0%              │
-│ ├─ VRAM: [██████░░░░░] 35.0%              │
-│ ├─ History: 📈〰️〰️📉                      │
-│ └─ Temp: 62°C                             │
-├─────────────────────────────────────────────┤
-│ Refresh: 1.0s  |  Press 'q' to quit       │
-└─────────────────────────────────────────────┘
-```
+![screenshot](./screenshot.png)
 
 ## 一键安装
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/你的用户名/atop-monitor/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/Atticlmr/atop-monitor/main/install.sh | bash
 ```
 
 或者下载预编译的 release：
 
 | 架构 | 下载链接 |
 |------|---------|
-| x86_64 (amd64) | [atop-monitor-linux-amd64](https://github.com/你的用户名/atop-monitor/releases/latest) |
-| aarch64 (arm64) | [atop-monitor-linux-arm64](https://github.com/你的用户名/atop-monitor/releases/latest) |
+| x86_64 (amd64) | [atop-monitor-linux-amd64](https://github.com/Atticlmr/atop-monitor/releases/latest) |
+| aarch64 (arm64) | [atop-monitor-linux-arm64](https://github.com/Atticlmr/atop-monitor/releases/latest) |
 
 下载后：
 ```bash
@@ -91,7 +69,7 @@ sudo mv atop-monitor-linux-amd64 /usr/local/bin/atop-monitor
 
 1. 克隆仓库：
 ```bash
-git clone https://github.com/你的用户名/atop-monitor.git
+git clone https://github.com/Atticlmr/atop-monitor.git
 cd atop-monitor
 ```
 
