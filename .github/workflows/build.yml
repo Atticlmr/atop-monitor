@@ -33,6 +33,7 @@ jobs:
 
       - name: Clone FTXUI
         run: |
+          rm -rf /tmp/FTXUI
           cd /tmp
           git clone --depth 1 --branch v6.1.9 https://github.com/ArthurSonzogni/FTXUI.git
           mkdir -p FTXUI/build
@@ -42,6 +43,7 @@ jobs:
 
       - name: Configure CMake
         run: |
+          rm -rf build
           mkdir -p build
           cd build
           cmake .. -DFTXUI_DIR=/tmp/FTXUI
