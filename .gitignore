@@ -1,0 +1,71 @@
+# Build directories
+build/
+build_*/
+cmake-build-*/
+out/
+
+# Compiled binaries
+*.exe
+*.out
+*.app
+atop-monitor
+sysmon-tui
+
+# Object files
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Git
+.git/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Package files
+*.deb
+*.rpm
+*.tar.gz
+*.tgz
+
+# Documentation build
+doc/html/
+doc/latex/
+
+# Prerequisites
+*.d
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
