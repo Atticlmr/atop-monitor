@@ -70,6 +70,24 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Update latest release
+        if: startsWith(github.ref, 'refs/tags/v')
+        run: |
+          TAG_NAME=${GITHUB_REF#refs/tags/}
+          echo "Tag: $TAG_NAME"
+          
+          gh release delete latest --yes 2>/dev/null || true
+          
+          cd build
+          gh release create latest \
+            --title "Latest (${TAG_NAME})" \
+            --notes "Latest build from ${TAG_NAME}. Run: curl -sSL https://raw.githubusercontent.com/Atticlmr/atop-monitor/master/install.sh | bash" \
+            --latest \
+            atop-monitor-linux-amd64 \
+            atop-monitor-linux-arm64
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
   create-tag:
     if: github.event_name == 'push' && startsWith(github.ref, 'refs/tags/') == false
     runs-on: ubuntu-latest
@@ -88,7 +106,6 @@ jobs:
           if [ -z "$TAG" ]; then
             TAG="v1.0.0"
           else
-            # Increment patch version
             TAG=$(echo $TAG | awk -F. '{print $1"."$2"."$3+1}')
           fi
           echo "tag=$TAG" >> $GITHUB_OUTPUT

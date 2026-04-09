@@ -6,12 +6,12 @@ set -e
 
 REPO="${REPO:-Atticlmr/atop-monitor}"
 INSTALL_PREFIX="${INSTALL_PREFIX:-/usr/local}"
-VERSION="${VERSION:-latest}"
+VERSION="${VERSION:-v0.0.3}"
 TMPDIR=$(mktemp -d)
 ARCH=$(uname -m)
 OS=$(uname -s)
 
-echo "Installing atop-monitor from $REPO..."
+echo "Installing atop-monitor from $REPO (version $VERSION)..."
 
 if [ "$OS" != "Linux" ]; then
     echo "Error: Only Linux is supported"
