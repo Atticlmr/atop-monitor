@@ -1,10 +1,10 @@
 #!/bin/bash
 # One-line install script for atop-monitor
-# Usage: curl -sSL https://raw.githubusercontent.com/YOUR_USERNAME/atop-monitor/main/install.sh | bash
+# Usage: curl -sSL https://raw.githubusercontent.com/Atticlmr/atop-monitor/main/install.sh | bash
 
 set -e
 
-REPO="${REPO:-yourusername/atop-monitor}"
+REPO="${REPO:-Atticlmr/atop-monitor}"
 INSTALL_PREFIX="${INSTALL_PREFIX:-/usr/local}"
 VERSION="${VERSION:-latest}"
 TMPDIR=$(mktemp -d)
